@@ -9,3 +9,5 @@ total, used, free = os.statvfs('/').f_frsize * os.statvfs('/').f_blocks, os.stat
 print(f"Disk Status: {free / (1024**3):.2f}GB free space available.")
 
 print("Health check complete. System is ready.")
+print("System automation process initiated. Waiting for tasks...")
+
